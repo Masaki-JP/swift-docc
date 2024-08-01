@@ -11,6 +11,7 @@
 		4C5C765D2C5A98D30005B604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C765C2C5A98D30005B604 /* ContentView.swift */; };
 		4C5C765F2C5A98D40005B604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C765E2C5A98D40005B604 /* Assets.xcassets */; };
 		4C5C76622C5A98D40005B604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C76612C5A98D40005B604 /* Preview Assets.xcassets */; };
+		4C62CE5A2C5B1A9B005901E7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C62CE592C5B1A9B005901E7 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4C5C765C2C5A98D30005B604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C5C765E2C5A98D40005B604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5C76612C5A98D40005B604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C62CE592C5B1A9B005901E7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4C5C765A2C5A98D30005B604 /* Swift_DoccApp.swift */,
 				4C5C765C2C5A98D30005B604 /* ContentView.swift */,
+				4C62CE592C5B1A9B005901E7 /* Item.swift */,
 				4C5C765E2C5A98D40005B604 /* Assets.xcassets */,
 				4C5C76602C5A98D40005B604 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5C765D2C5A98D30005B604 /* ContentView.swift in Sources */,
+				4C62CE5A2C5B1A9B005901E7 /* Item.swift in Sources */,
 				4C5C765B2C5A98D30005B604 /* Swift_DoccApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +206,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -258,6 +263,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				RUN_DOCUMENTATION_COMPILER = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
